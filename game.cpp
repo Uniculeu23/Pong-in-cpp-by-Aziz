@@ -104,7 +104,7 @@ void simulate_game(Input* input, float dt) {
         acc1 -= game_speed;
     }
     */
-
+    /*
     //bot 1 hard
     if (fabsf(game_vx2) > 0.01f) {
         float predict_time = fabsf((game_x2 - game_x0) / game_vx2);
@@ -135,7 +135,7 @@ void simulate_game(Input* input, float dt) {
         acc0 += game_speed * (predict_y > game_y0);
         acc0 += game_speed * (predict_y < game_y0);
     }
-
+    */
     //bot 2 hard
     if (fabsf(game_vx2) > 0.01f) {
         float predict_time = fabsf((game_x2 - game_x1) / game_vx2);
